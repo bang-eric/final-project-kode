@@ -1,4 +1,6 @@
-
+body {
+    opacity: 1;
+}
 
 .title-primary {
     text-align: center;

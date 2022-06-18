@@ -1,51 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Ezra Ricardo</title>
+    <title>Portfolio Ezra Ricardo</title>
     <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- CSS styles own -->
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
     <header>
         <nav id="mainNav" class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#home">Ezra Ricardo's Portfolio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#home">Ezra Ricardo's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <button onclick="normalMode(body, 1)" type="button" id="normalButton"
+                        class="btn btn-sm btn-outline-secondary">Normal Mode</button>
+                    <button onclick="grayScale(body, 0.6)" type="button" id="grayButton"
+                        class="btn btn-secondary btn-sm">Grayscale Mode</button>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
     <main>
@@ -69,28 +78,33 @@
         <section id="portfolio">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/cody-weaver-xu6pELUdcsY-unsplash.jpg" class="d-block w-100" alt="Lake">
+                    <div class="carousel-item active">
+                        <img src="img/cody-weaver-xu6pELUdcsY-unsplash.jpg" class="d-block w-100" alt="Lake">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/danang-himawan-DihUrBhh5fQ-unsplash (1).jpg" class="d-block w-100" alt="Sea">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/hengyao-tang-lyanBLpZvW4-unsplash.jpg" class="d-block w-100" alt="Waterfall">
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/danang-himawan-DihUrBhh5fQ-unsplash (1).jpg" class="d-block w-100" alt="Sea">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/hengyao-tang-lyanBLpZvW4-unsplash.jpg" class="d-block w-100" alt="Waterfall">
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
@@ -100,7 +114,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-4">
-                        <h1>"Tidak semua tragedi harus diratapi, banyak tragedi yang bisa ditertawai" <br><span> - Bang ERic - </span></h1>
+                        <h1>"Tidak semua tragedi harus diratapi, banyak tragedi yang bisa ditertawai" <br><span> - Bang
+                                ERic - </span></h1>
                     </div>
                     <div class="col-4">
                         Column
@@ -116,57 +131,75 @@
         <section id="team" class="section-style">
             <div class="container">
                 <h1 class="title-about">Team</h1>
-      
+
                 <div class="row">
-                  <div class="col-md-3">
-                    <div class="card text-center">
-                      <img src="img/kateryna-hliznitsova-bsUZCRVPlrc-unsplash.jpg" alt="Kateryna">
-                      <p class="text-card">Kateryna</p>
+                    <div class="col-md-3">
+                        <div class="card text-center">
+                            <img src="img/kateryna-hliznitsova-bsUZCRVPlrc-unsplash.jpg" alt="Kateryna">
+                            <p class="text-card">Kateryna</p>
+                        </div>
                     </div>
-                  </div>
-      
-                  <div class="col-md-3">
-                    <div class="card text-center">
-                      <img src="img/andrei-caliman-Nn6LPXLhOb4-unsplash.jpg" alt="gusev">
-                      <p class="text-card">Gusev</p>
+
+                    <div class="col-md-3">
+                        <div class="card text-center">
+                            <img src="img/andrei-caliman-Nn6LPXLhOb4-unsplash.jpg" alt="gusev">
+                            <p class="text-card">Gusev</p>
+                        </div>
                     </div>
-                  </div>
-      
-                  <div class="col-md-3">
-                    <div class="card text-center">
-                      <img src="img/andrei-caliman-pi20XR0tcBI-unsplash.jpg" alt="Caliman">
-                      <p class="text-card">Caliman</p>
+
+                    <div class="col-md-3">
+                        <div class="card text-center">
+                            <img src="img/andrei-caliman-pi20XR0tcBI-unsplash.jpg" alt="Caliman">
+                            <p class="text-card">Caliman</p>
+                        </div>
                     </div>
-                  </div>
-      
-                  <div class="col-md-3">
-                    <div class="card text-center">
-                      <img src="img/michael-gusev-woZuUCecgf8-unsplash.jpg" alt="Molina">
-                      <p class="text-card">Molina</p>
+
+                    <div class="col-md-3">
+                        <div class="card text-center">
+                            <img src="img/michael-gusev-woZuUCecgf8-unsplash.jpg" alt="Molina">
+                            <p class="text-card">Molina</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-      
+            </div>
+
         </section>
-        
+
         <section id="contact"></section>
-        
+
     </main>
     <footer>
         <p>&copy; Bang-ERic 2022. All Rights Reserved.</p>
         <br>
-        Photo by <a href="https://unsplash.com/@hengyao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">HengYao Tang</a> on <a href="https://unsplash.com/s/photos/raja-ampat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a
+            href="https://unsplash.com/@hengyao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">HengYao
+            Tang</a> on <a
+            href="https://unsplash.com/s/photos/raja-ampat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         <br />
-        Photo by <a href="https://unsplash.com/@codybweaver?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cody Weaver</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a
+            href="https://unsplash.com/@codybweaver?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cody
+            Weaver</a> on <a
+            href="https://unsplash.com/t/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         <br />
-        Photo by <a href="https://unsplash.com/@dna_threelabsdotofficial?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Danang Himawan</a> on <a href="https://unsplash.com/s/photos/raja-ampat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a
+            href="https://unsplash.com/@dna_threelabsdotofficial?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Danang
+            Himawan</a> on <a
+            href="https://unsplash.com/s/photos/raja-ampat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         <br />
-        Photo by <a href="https://unsplash.com/@kate_gliz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kateryna Hliznitsova</a> on <a href="https://unsplash.com/t/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a
+            href="https://unsplash.com/@kate_gliz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kateryna
+            Hliznitsova</a> on <a
+            href="https://unsplash.com/t/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         <br />
-        Photo by <a href="https://unsplash.com/@calimanoi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrei Caliman</a> on <a href="https://unsplash.com/t/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a
+            href="https://unsplash.com/@calimanoi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrei
+            Caliman</a> on <a
+            href="https://unsplash.com/t/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         <br />
-        Photo by <a href="https://unsplash.com/@flyinggoose76?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Gusev</a> on <a href="https://unsplash.com/t/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a
+            href="https://unsplash.com/@flyinggoose76?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael
+            Gusev</a> on <a
+            href="https://unsplash.com/t/people?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
     </footer>
 
     <!-- Back to top button -->
@@ -176,9 +209,12 @@
 
 
     <!-- bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 
     <!-- JavaScript own -->
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
