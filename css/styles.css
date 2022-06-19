@@ -52,12 +52,15 @@ section {
     opacity: 0.7;
 }
 
+#blog .row h1 {
+    font-family: "Raleway", sans-serif;
+}
+
 #home .about-btn {
     position: absolute;
     text-decoration: none;
     top: 40%;
     left: 50px;
-    /* font-family: "Raleway", sans-serif; */
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 1px;
@@ -96,11 +99,16 @@ section {
     margin-bottom: 30px;
 }
 
-#team, #contact, #blog {
+#about, #contact, #blog {
     /* #6C757D */
     background-color: #aab4be;
     box-sizing: border-box;
     padding-bottom: 30px;
+}
+
+#team {
+    background: url(../img/andrei-caliman-oW-h3VRbNxg-unsplash.jpg);
+    padding-bottom: 70px;
 }
 
 #team .text-card {
@@ -145,6 +153,19 @@ section {
 
 #contact a {
     text-decoration: none;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, .3);
+    background-color: #222
+    /* background-color: #9faf23; */
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0
 }
 
 /* styles for back to top button */
